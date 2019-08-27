@@ -22,7 +22,9 @@ steps:
     password:
       from_secret: pass
     repo: desckjet/drone
+    compress: true
     tags:
+      - 1.0.2
       - latest
   when:
     branch:
