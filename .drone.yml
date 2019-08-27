@@ -32,7 +32,7 @@ steps:
     - master
     
 - name: notify
-  image: drillster/drone-email
+  image: drillster/drone-emaill
   settings: 
     host: smtp
     username: user
