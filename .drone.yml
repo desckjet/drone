@@ -31,7 +31,7 @@ steps:
     branch:
     - master
     
- - name: notify
+- name: notify
   image: drillster/drone-email
   settings: 
     host: smtp
