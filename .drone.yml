@@ -28,4 +28,4 @@ steps:
       - latest
   when:
     branch:
-    - master
+    - master2
