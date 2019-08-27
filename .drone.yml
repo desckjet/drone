@@ -1,0 +1,15 @@
+kind: pipeline
+name: Pipeline
+
+steps:
+- name: build
+  image: golang
+  commands:
+  - go get -v -t -d ./...
+  - go build
+      
+- name: testing
+  image: golang
+  commands:
+  - go get -v -t -d ./...
+  - go test -v ./...
