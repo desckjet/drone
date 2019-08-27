@@ -1,5 +1,5 @@
 # DroneCI + Golang + Hub Docker!!!
-[![Build Status](https://cloud.drone.io/api/badges/twogg-git/go-droneci/status.svg)](https://cloud.drone.io/twogg-git/go-droneci)
+[![Build Status](https://cloud.drone.io/api/badges/desckjet/drone/status.svg)](https://cloud.drone.io/desckjet/drone)
 
 Simple repo to test DroneCI pipelines 
 
