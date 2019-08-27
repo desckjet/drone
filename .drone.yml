@@ -21,11 +21,11 @@ steps:
       from_secret: usuario
     password:
       from_secret: pass
-    repo: desckjet/drone
+    repo: desckjet/drone:2
     compress: true
     tags:
       - 1.0.2
       - latest
   when:
     branch:
-    - master2
+    - master
